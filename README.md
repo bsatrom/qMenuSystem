@@ -1,10 +1,7 @@
-qMenuSystem
-===========
+# qMenuSystem
 
-Simple menu system for Arduino projects
+Simple menu system for Particle projects that leverage the Adafruit SSD1306 OLED Display.
 
+# Installation
 
-Installation
-============
-
-Unpack to c:\Users\<user>\Documents\Arduino\libraries\ and rename from "qMenuSystem-master" to "qMenuSystem"
+Search for `qMenuSystem` in the Particle Web IDE, Desktop IDE or CLI to install.
