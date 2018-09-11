@@ -11,6 +11,7 @@ qMenuDisplay::qMenuDisplay(Adafruit_SSD1306 *disp)
 
 void qMenuDisplay::Begin()
 {
+  _disp->stopscroll();
   _disp->clearDisplay();
   _disp->setCursor(0, 0);
   _disp->setTextWrap(true);
@@ -20,6 +21,7 @@ void qMenuDisplay::Begin()
 
 void qMenuDisplay::Start()
 {
+  _disp->stopscroll();
   _disp->clearDisplay();
   _disp->setTextColor(WHITE);
 }
