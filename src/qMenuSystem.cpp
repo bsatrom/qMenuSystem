@@ -35,6 +35,9 @@ int qMenuSystem::ProcessMenu(int action)
   if (action == ACTION_SELECT)
     return _selectedIndex;
 
+  if (ACTION_BACK)
+    return -1;
+
   ShowMenu();
 
   return 0;
